@@ -19,8 +19,9 @@ h1{
 
 }
 a{
-  color: #11999E;
+  color: #097174;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
   margin: 0 10px 0 10px;
   text-decoration: none;
 }
