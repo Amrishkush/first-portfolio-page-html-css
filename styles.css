@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;          /** also can be font-family: Verdana, Arial, Helvetica, sans-serif;**/
+/********* It executes in order if not that installed then next executed***************/
+}
+h1{
+  width: 40%;   /******it pushes h1 to left align  and takes only inline 40% of screen (see pesticide)*******/
+  margin: 60px auto 0 auto;         /***** or margin 0 *****/
+   /**auto used to center---- 1st top 0 ---2nd right auto (center it horizontally)then--
+  3rd 0 bottom then 4th again auto to center from left *******/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 1;      /***********Increases the space between this and next para (unit is not written single is written only)
+  /***16px = 1em = 100% = 1rem (root em) rem is best font in parent body does not affect
+                                the other element writing font-size in both inherit from body and add on total also % and px
+                                         also disturbs with zoom in zoom out in browser***/
+
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+  text-decoration: underline;
+}
+h2{
+  color: #66BFBF;     /*****font color********/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;           /****** 32px = 2rem******/
+  font-weight: normal;         /*******Increase or decreases the thickness*********/
+  margin: 0;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+  color: #40514E;
+}
+hr{
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+.top-container {
+  background-color: #F5EFE6;
+  position: relative;      /********* we are setting it relative so that we move other elements******/
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
+.teach , .pro {
+  text-decoration: underline;
+}
+.middle-container {
+  margin: 40px auto 60px auto;
+}
+.amrish {
+  margin-bottom: 20px;
+  width: 160px;
+}
+.intro {
+  width: 30%;
+  margin: 20px auto 0 auto;
+}
+.workplace {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.lamp{
+  width: 440px;
+  position: absolute;
+  bottom: 520px;
+  right: 480px;
+}
+.landscape {
+    width: 500px;
+    margin: 0;
+    position: relative;
+    top: 114px;
+}
+
+.skill-row{
+  width: 50%;    /** use div class to size it then it moves to left then margin auto centers it necessary to use float other wise image will be anywhere****/
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-img {
+  width: 150px;
+  float: left;        /******* its necessary to set div main class margin then use float otherwise it will be cluttered*******/
+  margin-right: 20px;  /*** we can use (clear) atrribute to clear the float in right left etc...******/
+}
+.coding {
+  width: 150px;
+  float: right;
+  margin-right: 20px;
+}
+.skill-heading{
+  text-align: center;
+}
+.coding-heading{
+  text-align: center;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.message {
+  margin: 0 auto 50px auto;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 16px 0;         /*****padding auto is wrong so always type 0 not auto its only for centering*******/
+}
+.copyright {
+  color: #EAF6F6;
+}
